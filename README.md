@@ -1,14 +1,17 @@
 # nav-example
 
-A Clojure library designed to ... well, that part is up to you.
+To get up and running, you need to:
 
-## Usage
+* Add `cljs-react-navigation` to your `project.clj`
+* Add `react-navigation` via `yarn add react-navigation` or `npm i react-navigation`
+* Link it to figwheel via `re-natal use-component react-navigation`
+* `re-natal use-figwheel`
 
-FIXME
+Then you can run `lein figwheel ios` and `react-native run-ios`.
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018 Joshua Miller
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
